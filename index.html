@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest"><head>
+<title>PlayStation 4 7.02 lite MichaelCL13</title>
+<style>
+html, body {
+background-image: url('img.jpg');
+background-attachment: fixed;
+background-size:100%;
+background-repeat:no-repeat;
+background-color: #24272b;
+color:white;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+overflow: hidden;
+}
+h1 {
+text-shadow: 0.1em 0.1em 0.2em black;
+font-size:25px;
+text-align:center;
+color:white;
+}
+.btn {
+width: 262px;
+height: 49px;
+padding-top: 10px;
+padding-bottom: 13px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin-top: 15px;
+margin-bottom: 5px;
+margin-left: 15px;
+margin-right: 5px;
+border-bottom-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-left-width: 0px;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+.btn-main {
+background-color: #3D3D3D;
+color: white;
+border-radius: 10px;
+}
+.btn-main:hover {
+box-shadow: 0 5px 50px 0 #3B9AAF;
+background-color: #1B978B;
+color: white;
+    border-radius: 10px;
+}
+</style>
+</style>
+<script>
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));document.getElementById="display:none";window.msgs.innerHTML="Instalando Cache en el navegador: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Instalacion del Cache Finalizada ✔";},1000);setTimeout(function(){window.msgs.innerHTML="Ya puede desconectar la Internet y volver abrir el Navegador ...";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+document.cookie = 'kex=1';
+</script>
+</head>
+<h1 id=msgs>PlayStation 4 7.02 lite MichaelCL13</h1>
+<hr>
+<br>
+<h1 style="font-size:28px;text-align:center;color:#3B9AAF;">Experimentara problemas de memoria insuficiente en el navegador! (Debe seguir Intentando)</h1>
+<div style="text-align:center">
+<button class="btn btn-main" onmouseover="mainpayload1()" onmouseout="pagetitle()" onclick=load_goldhen()> goldHEN v1.1 </button>
+<button class="btn btn-main" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_hen()> HEN v2.1.3 </button>
+<button class="btn btn-main" onmouseover="mainpayload3()" onmouseout="pagetitle()" onclick=load_hen2()> HEN-U </button>
+<button class="btn btn-main" onmouseover="mainpayload4()" onmouseout="pagetitle()" onclick=load_mira()> MIRA </button>
+<br><br>
+<h1 style="font-size:28px;text-align:center;color:#3B9AAF">PAYLOADS</h1>
+<button class="btn btn-main" onmouseover="goldhen1()" onmouseout="pagetitle()" onclick=load_goldhen1()> goldHEN 1.0 </button>
+<button class="btn btn-main" onmouseover="dumper()" onmouseout="pagetitle()" onclick=load_dumper()> Dumper </button>
+<button class="btn btn-main" onmouseover="enablevr()" onmouseout="pagetitle()" onclick=load_enablevr()> Habilitar VR </button>
+<button class="btn btn-main" onmouseover="linux1gb()" onmouseout="pagetitle()" onclick=load_linux1gb()> Linux 1GB </button>
+<button class="btn btn-main" onmouseover="linux3gb()" onmouseout="pagetitle()" onclick=load_linux3gb()> Linux 3GB </button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<br>
+<br>
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</div>
+<h1 style="font-size:30px;text-align:center;margin-top: 20px;color:#3B9AAF;">MichaelCL13 +53 52561272 Este host a sido creado para los usuarios de PlayStaion 4. Siguenos en:</a>&nbsp&nbsp<a href="https://t.me/PS4lanonlinepirata" style="color:#7F92FF;">@PS4 pirata LAN ONLINE grupo</a>&nbsp&nbsp</h1>
+<br>
+<br>
+</div>
+<script>
+function mainpayload1(){
+document.getElementById("msgs").innerHTML = "GoldHEN v1.1 para Sistema 7.02 (Incluye arreglo temporal para error CE-30391-6)";
+}
+function mainpayload2(){
+document.getElementById("msgs").innerHTML = "HEN v2.1.3 para Sistema 7.02";
+}
+function mainpayload3(){
+document.getElementById("msgs").innerHTML = "HEN + ToDex 0x80 (Incluye arreglo temporal para error CE-30391-6)";
+}
+function mainpayload4(){
+document.getElementById("msgs").innerHTML = "MIRA para Sistema 7.02";
+}
+function goldhen1(){
+document.getElementById("msgs").innerHTML = "GoldHEN v1.0 para sistema 7.02";
+}
+function dumper(){
+document.getElementById("msgs").innerHTML = "Dumpear tus Juegos (Es necesario USB en exFAT y el fichero (dumper.cfg en la raiz del USB))";
+}
+function enablevr(){
+document.getElementById("msgs").innerHTML = "Habilita PSVR (Puedes iniciar por HEN o MIRA despuesde cargar estos exploits)";
+}
+function linux1gb(){
+document.getElementById("msgs").innerHTML = "Cargar Linux con 1GB VRAM";
+}
+function linux3gb(){
+document.getElementById("msgs").innerHTML = "Cargar Linux con 3GB VRAM";
+}
+function pagetitle(){
+document.getElementById("msgs").innerHTML = "PlayStation 4 7.02 host lite MichaelCL13";
+}
+
+function load_goldhen(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=goldhen_1.1_702.js';
+        link.click();
+}
+function load_hen(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=hen213.js';
+        link.click();
+}
+function load_hen2(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=hen-U.js';
+        link.click();
+}
+function load_mira(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=mira2.js';
+        link.click();
+}
+function load_mirahen(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=mugimirahen.js';
+        link.click();
+}
+function load_dumper(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=dumper.js';
+        link.click();
+}
+function load_goldhen1(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=goldhen-1.0.js';
+        link.click();
+
+}
+function load_enablevr(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=enable-vr.js';
+        link.click();
+}
+function load_linux1gb(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=linux702-1gb.js';
+        link.click();
+}
+function load_linux3gb(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=linux702-3gb.js';
+        link.click();
+}
+</script>
+</body>
+</html>
